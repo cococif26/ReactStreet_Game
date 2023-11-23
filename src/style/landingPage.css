@@ -22,7 +22,7 @@
 }
 .best {
     height: auto;
-    background: #212529;
+    background: linear-gradient(to bottom, rgba(5, 44, 101, 1), rgba(5, 44, 101, 0.5));
 }
 .gameImage {
     height: auto;

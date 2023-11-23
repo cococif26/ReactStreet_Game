@@ -15,6 +15,7 @@ const TrandingGame = () => {
                 <Container>
                     <br/>
                     <h1 className="text-white text-center fw-bold" id="trending">Trending Game</h1>
+                    <p className="text-center text-white">Trending games that are often played by gamer</p>
                     <Row className="mt-4">
                     {/* <Image /> */}
                         <Col md={4}>
