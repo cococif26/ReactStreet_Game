@@ -12,7 +12,7 @@ function App() {
       <div className="myBG">
         <NavigationBar />
         <Intro />
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{ marginTop: "20px" }}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{ width: "100%", height:"65vh" }}>
           <path
             fill="#d63384"
             fill-opacity="1"

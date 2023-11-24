@@ -15,8 +15,8 @@ const BestGame = () => {
           </h1>
           <p className="text-center text-white">Top games that are often played by gamers</p>
           <Row className="d-flex justify-content-center">
-            <Col sm={4}>
-              <Card style={{ width: "22rem" }}>
+            <Col sm={4} className="p-2 g-col-6">
+              <Card style={{ width: "20rem" }}>
                 <Card.Img variant="top" src={backbloodImage} alt="Back blood Game" className="images" />
                 <Card.Body>
                   <Card.Title className="fw-bold text-center">BackBoold4</Card.Title>
@@ -29,8 +29,8 @@ const BestGame = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={4}>
-              <Card style={{ width: "22rem" }}>
+            <Col sm={4} className="p-2 g-col-6">
+              <Card style={{ width: "20rem" }}>
                 <Card.Img variant="top" src={CrysisImage} alt="crysis Game" className="images"/>
                 <Card.Body>
                   <Card.Title className="fw-bold text-center">Crysis3</Card.Title>
@@ -43,8 +43,8 @@ const BestGame = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={3}>
-            <Card style={{ width: "22rem" }}>
+            <Col sm={4} className="p-2 g-col-6">
+            <Card style={{ width: "20rem" }}>
                 <Card.Img variant="top" src={evilImage} alt="Resident Evil Game" className="images" />
                 <Card.Body >
                   <Card.Title className="fw-bold text-center">Resident Evil 2</Card.Title>

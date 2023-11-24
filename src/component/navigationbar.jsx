@@ -10,8 +10,8 @@ const NavigationBar = () => {
                     <Container>
                         <Navbar.Brand href="/" className="fw-bold"><Image src={logoImage} style={{ width: "96px" }}/>GameHolic</Navbar.Brand>
                         <Nav className="nav-underline">
-                            <Nav.Link href="#trending" className=" fw-semi-bold">Tranding</Nav.Link>
-                            <Nav.Link href="#best" className=" fw-semi-bold">Best</Nav.Link>
+                            <Nav.Link href="#trending" className="fw-bold">Tranding</Nav.Link>
+                            <Nav.Link href="#best" className="fw-bold">Best</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

@@ -16,9 +16,9 @@ const TrandingGame = () => {
                     <br/>
                     <h1 className="text-white text-center fw-bold" id="trending">Trending Game</h1>
                     <p className="text-center text-white">Trending games that are often played by gamer</p>
-                    <Row className="mt-4">
+                    <Row className="mt-3">
                     {/* <Image /> */}
-                        <Col md={4}>
+                        <Col md={4} className="mt-3">
                         <Card>
                             <Card.Img variant="top" src={mineCraftImage} alt="Minecraft Game" className="images rounded-2"/>
                             <Card.Body>
@@ -41,7 +41,7 @@ const TrandingGame = () => {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col md={4}>
+                        <Col md={4} className="mt-3">
                             <Card>
                                 <Card.Img variant="top" src={farCryImage} alt="farcry Game" className="images"/>
                                 <Card.Body>
@@ -64,7 +64,7 @@ const TrandingGame = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col md={4}>
+                        <Col md={4} className="mt-3">
                             <Card>
                                 <Card.Img variant="top" src={iotImage} alt="iot Game" className="images"/>
                                 <Card.Body>
